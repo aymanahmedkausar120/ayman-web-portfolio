@@ -11,6 +11,27 @@
 }
 
 /* share style */
+section {
+	margin-top: 130px;
+}
+
+.secondary-bg {
+	background-color: #FFF8F3;
+}
+
+.section-title {
+	font-size: 30px;
+	font-weight: 600;
+	color: #181818;
+}
+
+.section-des {
+	font-size: 18px;
+	color: #757575;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .primary-color {
 	color: #FD6E0A;
 }
@@ -35,7 +56,8 @@
 	max-width: 1349px;
 	background-image: url(../images/header_bg.png), url(../images/developer.png);
 	background-repeat: no-repeat;
-	background-position: bottom right, left bottom;
+	background-size: 700px 420px, 100px 700px;
+	background-position: bottom right, 10px 10px;
 }
 
 /* nav styles */
@@ -73,7 +95,7 @@ nav li a {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin: 50px 38px 0px 150px;
+	margin: 50px 10px 0px 150px;
 
 }
 
@@ -102,4 +124,55 @@ nav li a {
 	font-size: 18px;
 	margin-bottom: 30px;
 
+}
+
+/* main styles */
+main {
+	max-width: 957px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.about {
+	padding: 120px 135px;
+}
+
+.about-items {
+	display: flex;
+	justify-content: space-around;
+}
+
+.item-title {
+	color: #757575;
+	font-size: 20px;
+}
+
+.item-des {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/* What I do start section */
+.what-des {
+	padding: 0px 110px;
+}
+
+/* skill-container styles */
+.skill-container {
+	display: flex;
+	gap: 24px;
+	margin-top: 70px;
+}
+
+.skill {
+	padding: 26px;
+	text-align: start;
+	box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 22px;
+	margin-bottom: 17px;
 }
